@@ -3,3 +3,52 @@
     margin: 0;
     padding: 0;
 }
+
+/* Portfolio */
+
+.projects #project-1,
+#project-2,
+#project-3 {
+    height: 50vh;
+    display: flex;
+}
+
+.projects #project-1 {
+    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), #9971e9be), url('../img/showcase.jpg') no-repeat center center/cover;
+    clip-path: polygon(0 0, 85% 0, 70% 100%, 0 100%);
+}
+
+.projects #project-2 {
+    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), #9971e9be), url('../img/showcase2.jpg') no-repeat center center/cover;
+    clip-path: polygon(0 0, 85% 0, 70% 100%, 0 100%);
+}
+
+.projects #project-3 {
+    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), #9971e9be), url('../img/showcase4.jpg') no-repeat center center/cover;
+    clip-path: polygon(0 0, 85% 0, 70% 100%, 0 100%);
+}
+
+.projects .separator .project-header {
+    color: #8c9299;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projects .separator {
+    top: 0;
+    padding: 0 30px 10px 30px;
+    margin: 6px;
+    background-color: #fff;
+}
+
+.tools-used {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    z-index: 2;
+}
+
+.tools-used .tools-title {
+    font-size: 1.1rem;
+}
