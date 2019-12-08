@@ -77,7 +77,7 @@ p {
     color: #55e85d;
     border: rgb(85, 232, 93) solid 1px;
     border-radius: 5px;
-    pointer: cursor;
+    cursor: pointer;
 }
 
 /* Showcase */
@@ -106,24 +106,24 @@ p {
     height: 80vh;
     display: grid;
     grid-template-columns: 20% 80%;
-    /* padding: 30px; */
+
 }
 
 .projects #project-1 .project-content {
     background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase.jpg') no-repeat center center/cover;
-    clip-path: polygon(10% 5%, 100% 0, 100% 100%, 40% 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 40% 100%);
 
 }
 
 .projects #project-2 .project-content {
     background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase2.jpg') no-repeat center center/cover;
-    clip-path: polygon(10% 0, 100% 5%, 100% 100%, 40% 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 40% 100%);
 
 }
 
 .projects #project-3 .project-content {
     background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase4.jpg') no-repeat center center/cover;
-    clip-path: polygon(10% 5%, 100% 0, 100% 95%, 40% 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 40% 100%);
 }
 
 .projects #project-1 .project-content:hover {
