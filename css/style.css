@@ -5,12 +5,13 @@
 }
 
 body {
-    font-family: 'Baskervville', serif;
+    font-family: 'Muli', sans-serif;
 
 }
 
 a {
     text-decoration: none;
+    color: #8c9299;
 }
 
 p {
@@ -21,29 +22,49 @@ p {
 
 /* Utility classes */
 
-.text-primary {
-    color: #55e85d;
-}
-
 .l-intro {
     display: flex;
-    font-size: 3rem;
-    color: #55e85d;
+    font-size: 5rem;
+    color: #8c9299;
+    font-weight: bolder;
+}
+
+.intro-greeting {
+    color: rgb(155, 11, 168);
 }
 
 .l-heading {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 0.75rem;
-    line-height: 1.1
+    line-height: 1.1;
+    font-weight: bolder;
 }
 
 .anchor {
     display: block;
     height: 63px;
-    margin-top: -63px;
+    margin-top: -10px;
     visibility: hidden;
 }
 
+/* Showcase */
+
+#showcase {
+    background: url('../img/gradient.gif') no-repeat right;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    padding: 0 2rem;
+    color: rgb(140, 146, 153);
+}
 
 /* Navbar */
 
@@ -58,6 +79,7 @@ p {
     padding: 1rem;
 }
 
+
 #navbar ul {
     display: flex;
     align-items: center;
@@ -68,51 +90,104 @@ p {
 
 #navbar ul li a {
     color: #fff;
+    font-weight: 200;
     padding: 0.75rem;
     margin: 0 0.25rem;
 }
 
 #navbar ul li a:hover {
     /* background: #93cb52; */
-    color: #55e85d;
-    border: rgb(85, 232, 93) solid 1px;
+    color: rgb(155, 11, 168);
+    border: rgb(155, 11, 168) solid 1px;
     border-radius: 5px;
+    padding: 0.5rem;
     cursor: pointer;
 }
 
-/* Showcase */
-
-#showcase {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase1.jpg') no-repeat center center/cover;
-    height: 90vh;
-    color: #fff;
-}
-
-#showcase .showcase-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 0 2rem;
-}
 
 /* Portfolio */
 
-.projects #project-1,
+.projects #project-1 .project-content,
+#project-2 .project-content,
+#project-3 .project-content,
+#project-4 .project-content {
+    /* background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.3), rgba(153, 113, 233, 0.4)), url('../img/showcase4.jpg') no-repeat center center/cover; */
+    background: url('../img/showcase4.jpg') no-repeat center center/cover;
+    height: 50vh;
+}
+
+.project-header {
+    color: rgb(155, 11, 168);
+    font-size: 3em;
+    text-align: center;
+    margin: 0.5em;
+}
+
+.project-body {
+    font-weight: 100;
+    color: rgb(140, 146, 153);
+    text-align: center;
+    margin: 0 10%;
+    line-height: 1.6em;
+    height: 30vh;
+}
+
+.project-pills ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.project-pills ul li {
+    color: rgb(140, 146, 153);
+    border: rgb(140, 146, 153) solid 1px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: 0.2em;
+
+}
+
+.project-pills ul li:hover {
+    /* background: #93cb52; */
+    color: rgb(155, 11, 168);
+    border: rgb(155, 11, 168) solid 1px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.projects-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills {
+    height: 95vh;
+    background-color: rgb(155, 11, 168);
+}
+
+.contact {
+    background-color: rgb(138, 79, 255);
+    height: 95vh;
+
+}
+
+
+
+/* .projects #project-1,
 #project-2,
 #project-3 {
-    height: 80vh;
+    height: 50vh;
     display: grid;
     grid-template-columns: 20% 80%;
 
 }
 
 .projects #project-1 .project-content {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase.jpg') no-repeat center center/cover;
-    clip-path: polygon(10% 0, 100% 0, 100% 100%, 40% 100%);
-
+    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase4.jpg') no-repeat center center/cover;
 }
 
 .projects #project-2 .project-content {
@@ -137,7 +212,7 @@ p {
 }
 
 .projects #project-3 .project-content:hover {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.5)), url('../img/showcase4.jpg') no-repeat center center/cover;
+    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.2), rgba(153, 113, 233, 0.2)), url('../img/showcase4.jpg') no-repeat center center/cover;
 
 }
 
@@ -179,8 +254,6 @@ p {
     color: #8c9299;
     font-size: 1.4rem;
     padding: 10px;
-    position: relative;
-    z-index: 2;
 }
 
 .tools-used .tools-item {
@@ -198,6 +271,19 @@ p {
     color: #55e85d;
     border-color: #55e85d;
     cursor: pointer;
+}
+
+
+.skills {
+    background-color: #55e85d;
+    height: 90vh;
+}
+
+
+.contact {
+    background-color: rgb(138, 79, 255);
+    height: 90vh;
+
 }
 
 /* TypeWriter Cursor */
