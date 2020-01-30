@@ -42,8 +42,8 @@ p {
 
 .anchor {
     display: block;
-    height: 63px;
-    margin-top: -10px;
+    height: 50px;
+    margin-top: -50px;
     visibility: hidden;
 }
 
@@ -96,7 +96,6 @@ p {
 }
 
 #navbar ul li a:hover {
-    /* background: #93cb52; */
     color: rgb(155, 11, 168);
     border: rgb(155, 11, 168) solid 1px;
     border-radius: 5px;
@@ -114,6 +113,7 @@ p {
     /* background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.3), rgba(153, 113, 233, 0.4)), url('../img/showcase4.jpg') no-repeat center center/cover; */
     background: url('../img/showcase4.jpg') no-repeat center center/cover;
     height: 50vh;
+    margin-top: 0;
 }
 
 .project-header {
@@ -132,6 +132,14 @@ p {
     height: 30vh;
 }
 
+.project-body-small {
+    font-weight: 100;
+    color: rgb(140, 146, 153);
+    text-align: center;
+    line-height: 1.6em;
+    height: 30vh;
+}
+
 .project-pills ul {
     display: flex;
     align-items: center;
@@ -140,9 +148,9 @@ p {
 
 }
 
-.project-pills ul li {
+.project-pills ul li a {
     color: rgb(140, 146, 153);
-    border: rgb(140, 146, 153) solid 1px;
+    border: rgb(140, 146, 153) solid 2px;
     border-radius: 5px;
     padding: 0.5rem;
     cursor: pointer;
@@ -150,10 +158,9 @@ p {
 
 }
 
-.project-pills ul li:hover {
-    /* background: #93cb52; */
-    color: rgb(155, 11, 168);
-    border: rgb(155, 11, 168) solid 1px;
+.project-pills ul li a:hover {
+    color: rgb(155, 11, 168) !important;
+    border-color: rgb(155, 11, 168);
     border-radius: 5px;
     padding: 0.5rem;
     cursor: pointer;
@@ -164,18 +171,69 @@ p {
     justify-content: space-around;
 }
 
+/* Skills */
+
 .skills {
-    height: 95vh;
-    background-color: rgb(155, 11, 168);
+    height: 92vh;
+    background-image: linear-gradient(to right bottom, #DB47BF, #9C92F4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(5% 0, 95% 0, 100% 95%, 0% 100%);
+
 }
+
+.skills ul {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    color: rgb(155, 11, 168);
+    align-items: center;
+    list-style: none;
+    width: 2em;
+    height: 2em;
+
+}
+
+.skills ul li {
+    padding: 0.9em;
+    margin: 0.5em;
+    color: #fff;
+}
+
+.skills ul li:hover {
+    border: #fff solid 2px;
+    padding: 0.9em;
+    margin: 0.5em;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Contact  */
 
 .contact {
-    background-color: rgb(138, 79, 255);
-    height: 95vh;
-
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right top, #DB47BF, #9C92F4);
+    clip-path: polygon(0 0, 100% 5%, 95% 100%, 5% 95%);
+    align-items: center;
 }
 
+.contact ul {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
 
+.contact ul li a {
+    margin: 0.5em;
+    color: #fff;
+}
 
 /* .projects #project-1,
 #project-2,
@@ -288,15 +346,21 @@ p {
 
 /* TypeWriter Cursor */
 .txt-type>.txt {
-    border-right: 0.2rem solid #fff;
+    border-right: 0.2rem solid rgb(140, 146, 153);
 }
 
 @media screen and (min-width: 769px) and (max-width: 1100px) {
 
-    /* STYLES HERE */
-    .projects .separator .project-header {
-        font-size: 2rem;
-        padding: 5px;
-
+    .l-intro {
+        font-size: 4rem;
     }
+
+    .l-heading {
+        font-size: 4rem;
+    }
+
+    .projects-flex {
+        display: block;
+    }
+
 }

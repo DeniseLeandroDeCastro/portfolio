@@ -9,3 +9,32 @@
     text-align: center;
     margin: 0;
 }
+
+
+.l-intro {
+    font-size: 3rem;
+}
+
+.l-heading {
+    font-size: 3rem;
+}
+
+#showcase {
+    background: url('../img/gradient.gif') no-repeat center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.projects-flex {
+    display: block;
+}
+
+.project-header {
+    font-size: 2em;
+}
+
+.project-body,
+.project-body-small {
+    font-weight: 400;
+    font-size: 0.8em;
+}
