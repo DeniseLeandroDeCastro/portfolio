@@ -138,6 +138,7 @@ p {
     text-align: center;
     line-height: 1.6em;
     height: 30vh;
+    width: 40vw;
 }
 
 .project-pills ul {
@@ -187,7 +188,6 @@ p {
     font-size: 3em;
     display: flex;
     justify-content: center;
-    color: rgb(155, 11, 168);
     align-items: center;
     list-style: none;
     width: 2em;
@@ -196,16 +196,12 @@ p {
 }
 
 .skills ul li {
-    padding: 0.9em;
     margin: 0.5em;
     color: #fff;
 }
 
 .skills ul li:hover {
-    border: #fff solid 2px;
-    padding: 0.9em;
-    margin: 0.5em;
-    border-radius: 50%;
+    border-bottom: #fff solid 2px;
     color: #fff;
     cursor: pointer;
 }
@@ -235,112 +231,10 @@ p {
     color: #fff;
 }
 
-/* .projects #project-1,
-#project-2,
-#project-3 {
-    height: 50vh;
-    display: grid;
-    grid-template-columns: 20% 80%;
-
-}
-
-.projects #project-1 .project-content {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase4.jpg') no-repeat center center/cover;
-}
-
-.projects #project-2 .project-content {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase2.jpg') no-repeat center center/cover;
-    clip-path: polygon(10% 0, 100% 0, 100% 100%, 40% 100%);
-
-}
-
-.projects #project-3 .project-content {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.747)), url('../img/showcase4.jpg') no-repeat center center/cover;
-    clip-path: polygon(10% 0, 100% 0, 100% 100%, 40% 100%);
-}
-
-.projects #project-1 .project-content:hover {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.5)), url('../img/showcase.jpg') no-repeat center center/cover;
-
-}
-
-.projects #project-2 .project-content:hover {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.671), rgba(153, 113, 233, 0.5)), url('../img/showcase2.jpg') no-repeat center center/cover;
-
-}
-
-.projects #project-3 .project-content:hover {
-    background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.2), rgba(153, 113, 233, 0.2)), url('../img/showcase4.jpg') no-repeat center center/cover;
-
-}
-
-.projects #project-1 .project-content:hover,
-#project-2 .project-content:hover,
-#project-3 .project-content:hover {
+.contact ul li:hover {
+    border-bottom: #fff solid 2px;
+    color: #fff;
     cursor: pointer;
-}
-
-.projects .separator {
-    top: 0;
-    padding: 0 30px 10px 30px;
-    margin-bottom: -18px;
-    background-color: #fff;
-}
-
-.projects .separator .project-header {
-    color: #8c9299;
-    font-size: 3rem;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.project-header:before {
-    content: "";
-    flex: 1 1;
-    border-bottom: 2px solid #8c9299;
-    margin: auto 30px auto 5px;
-}
-
-.tools-used {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.tools-used .tools-title {
-    color: #8c9299;
-    font-size: 1.4rem;
-    padding: 10px;
-}
-
-.tools-used .tools-item {
-    padding: 5px 9px;
-    text-align: right;
-    margin: 10px;
-    display: flex;
-    border: 1px solid rgb(138, 79, 255);
-    border-radius: 2px;
-    color: rgb(138, 79, 255);
-    font-weight: bold;
-}
-
-.tools-used .tools-item:hover {
-    color: #55e85d;
-    border-color: #55e85d;
-    cursor: pointer;
-}
-
-
-.skills {
-    background-color: #55e85d;
-    height: 90vh;
-}
-
-
-.contact {
-    background-color: rgb(138, 79, 255);
-    height: 90vh;
 
 }
 

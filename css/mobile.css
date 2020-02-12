@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+.anchor {
+    display: block;
+    height: 45px;
+    margin-top: -70px;
+    visibility: hidden;
+}
+
 #navbar ul li a {
     padding: 0.75em;
     text-align: center;
@@ -16,7 +23,7 @@
 }
 
 .l-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #showcase {
@@ -37,4 +44,14 @@
 .project-body-small {
     font-weight: 400;
     font-size: 0.8em;
+}
+
+.skills {
+    height: 93vh;
+
+}
+
+contact {
+    height: 93vh;
+
 }
