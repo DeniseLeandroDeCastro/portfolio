@@ -4,19 +4,16 @@
     padding: 0;
 }
 
-.anchor {
-    display: block;
-    height: 45px;
-    margin-top: -70px;
-    visibility: hidden;
+#navbar {
+    margin-top: 20px;
 }
 
 #navbar ul li a {
     padding: 0.75em;
     text-align: center;
     margin: 0;
-}
 
+}
 
 .l-intro {
     font-size: 3rem;
@@ -46,12 +43,19 @@
     font-size: 0.8em;
 }
 
-.skills {
-    height: 93vh;
+.project-body-small {
+    width: 100vw;
+    padding: 5vw 10vw;
 
 }
 
-contact {
-    height: 93vh;
+.skills {
+    height: 95vh;
+    padding-top: 5vh;
+
+}
+
+.contact {
+    height: 95vh;
 
 }
