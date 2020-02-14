@@ -30,32 +30,46 @@
 }
 
 .projects-flex {
-    display: block;
+    flex-direction: column;
 }
 
 .project-header {
     font-size: 2em;
+
+    margin-top: 5vh;
+
+}
+
+.projects .project-1,
+.projects-flex .project-2,
+.projects-flex .project-3 {
+    height: 100vh;
+}
+
+.projects .project-3 #project-3 {
+    background: url('../img/ContactManager_showcase.png') no-repeat center left/cover;
+
 }
 
 .project-body,
 .project-body-small {
     font-weight: 400;
     font-size: 0.8em;
+    margin-top: 5vh;
 }
 
 .project-body-small {
     width: 100vw;
     padding: 5vw 10vw;
-
 }
 
 .skills {
-    height: 95vh;
+    height: 100vh;
     padding-top: 5vh;
 
 }
 
 .contact {
-    height: 95vh;
+    height: 100vh;
 
 }
