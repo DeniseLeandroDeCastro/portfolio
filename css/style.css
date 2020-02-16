@@ -112,18 +112,20 @@ p {
     margin-top: 0;
 }
 
+.projects .project-2 #project-2 {
+    background: url('../img/blog_showcase.png') no-repeat center center/cover;
+}
+
 .projects .project-3 #project-5 {
     background: url('../img/BTRE_showcase.png') no-repeat center center/cover;
 }
 
 .projects .project-3 #project-3 {
-    background: url('../img/ContactManager_showcase.png') no-repeat center top/cover;
-
+    background: url('../img/ClientManager_showcase.png') no-repeat center top/cover;
 }
 
 .projects .project-2 #project-4 {
-    background: url('../img/OfficeManager_showcase.png') no-repeat center center/cover;
-
+    background: url('../img/Office_showcase.png') no-repeat center center/cover;
 }
 
 .projects .project-1 .project-content,
@@ -132,9 +134,11 @@ p {
 .project-4 .project-content {
     /* background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.3), rgba(153, 113, 233, 0.4)), url('../img/showcase4.jpg') no-repeat center center/cover; */
     background: url('../img/showcase4.jpg') no-repeat center center/cover;
-    height: 50vh;
+    height: 45vh;
     margin-top: 0;
 }
+
+
 
 .project-header {
     color: rgb(155, 11, 168);
@@ -150,6 +154,7 @@ p {
     margin: 0 5%;
     line-height: 1.6em;
     height: 30vh;
+    padding: 0 15%;
 
 }
 
@@ -191,6 +196,10 @@ p {
 .projects-flex {
     display: flex;
     justify-content: space-around;
+}
+
+.projects-flex .project-content {
+    height: 45vh;
 }
 
 /* Skills */
