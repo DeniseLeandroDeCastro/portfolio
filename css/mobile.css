@@ -57,11 +57,11 @@
 }
 
 .projects .project-3 #project-3 {
-    background: url('../img/ContactManager_showcase.png') no-repeat center top/cover;
+    background: url('../img/ContactManager_showcase.png') no-repeat center left/cover;
 }
 
 .projects .project-2 #project-4 {
-    background: url('../img/OfficeManager_showcase.png') no-repeat center top/cover;
+    background: url('../img/OfficeManager_showcase.png') no-repeat center left/cover;
 
 }
 
