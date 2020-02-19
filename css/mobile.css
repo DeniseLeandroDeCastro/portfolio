@@ -26,7 +26,7 @@
 
 #showcase {
     background: url('../img/gradient.gif') no-repeat center/cover;
-    height: 100vh;
+    height: 92vh;
     color: #fff;
 }
 
@@ -41,7 +41,7 @@
 .projects .project-1,
 .projects-flex .project-2,
 .projects-flex .project-3 {
-    height: 100vh;
+    height: 92vh;
 }
 
 .projects .project-3 #project-3 {
@@ -53,17 +53,17 @@
 .project-body-small {
     font-weight: 400;
     font-size: 0.8em;
-    margin-top: 5vh;
-
+    margin-top: 0;
 }
 
 .project-body-small {
     width: 100vw;
-    padding: 5vw 10vw;
+    padding: 0 10vw;
+    margin-top: 0;
 }
 
 .contact {
     height: 100vh;
-    font-size: 0.7em;
+    font-size: 0.6em;
 
 }
