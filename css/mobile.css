@@ -97,7 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    clip-path: polygon(5% 0, 95% 0, 100% 95%, 0% 100%);
+    -webkit-clip-path: polygon(5% 0, 95% 0, 100% 95%, 0% 100%);
 }
 
 .contact {
@@ -106,7 +106,7 @@
     justify-content: center;
     color: #fff;
     background-image: linear-gradient(to right top, #DB47BF, #9C92F4);
-    clip-path: polygon(0 0, 100% 5%, 95% 100%, 5% 95%);
+    -webkit-clip-path: polygon(0 0, 100% 5%, 95% 100%, 5% 95%);
     align-items: center;
     font-size: 0.7em;
 }
