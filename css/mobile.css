@@ -54,14 +54,16 @@
     font-weight: 400;
     font-size: 0.8em;
     margin-top: 5vh;
+
 }
 
 .project-body-small {
-    width: auto;
+    width: 100vw;
     padding: 5vw 10vw;
 }
 
 .contact {
     height: 100vh;
+    font-size: 0.7em;
 
 }
