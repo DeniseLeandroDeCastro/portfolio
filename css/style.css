@@ -244,19 +244,19 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 50px 50px 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 50px);
     justify-content: center;
 
 }
 
 .grid-gap {
-    grid-gap: 1.2em;
+    grid-gap: 2em;
 }
 
 .grid-item {
     color: #fff;
-    border: 1px solid #fff;
-
+    display: grid;
 }
 
 .center {
@@ -265,6 +265,7 @@ p {
 
 .technology {
     justify-content: center;
+    text-align: center;
 }
 
 .fas,
@@ -289,7 +290,7 @@ p {
 }
 
 .contact ul {
-    font-size: 3em;
+    font-size: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
