@@ -108,25 +108,27 @@ p {
 
 
 .projects .project-3 {
-    height: 50vh;
+    height: 45vh;
     margin-top: 0;
 }
 
 .projects .project-2 #project-2 {
     background: url('../img/blog_showcase.png') no-repeat center center/cover;
     box-shadow: 5px 5px 30px #8c9299;
+    height: 45vh;
 
 }
 
 .projects .project-3 #project-5 {
     background: url('../img/BTRE_showcase.png') no-repeat center center/cover;
     box-shadow: 5px 5px 30px rgb(140, 146, 153);
-
+    height: 45vh;
 }
 
 .projects .project-3 #project-3 {
     background: url('../img/ContactManager_showcase.png') no-repeat center top/cover;
     box-shadow: 5px 5px 30px #8c9299;
+    height: 45vh;
 
 }
 
@@ -134,12 +136,13 @@ p {
     /* background: linear-gradient(rgba(140, 146, 153, 0.3), rgba(140, 146, 153, 0.5)), url('../img/OfficeManager_showcase.png') no-repeat center top/cover; */
     background: url('../img/OfficeManager_showcase.png') no-repeat center center/cover;
     box-shadow: 5px 5px 30px #8c9299;
+    height: 45vh;
 
 }
 
 .projects .project-1 .project-content {
     /* background: linear-gradient(to right bottom, rgba(138, 79, 255, 0.3), rgba(153, 113, 233, 0.4)), url('../img/showcase4.jpg') no-repeat center center/cover; */
-    background: url('../img/memenet_showcase2.png') no-repeat center top/cover;
+    background: url('../img/memenet_showcase.png') no-repeat center top/cover;
     /* background: linear-gradient(rgba(155, 11, 168, 0.3), rgba(155, 11, 168, 0.5)), url('../img/memenet_showcase2.png') no-repeat center top/cover; */
     height: 45vh;
     margin-top: 0;
@@ -147,11 +150,11 @@ p {
 }
 
 .projects .project-6 .project-content {
-
     background: url('../img/movie_showcase.png') no-repeat center center/cover;
     height: 45vh;
     margin-top: 0;
     box-shadow: 5px 5px 30px #8c9299;
+    width: 100vw;
 
 }
 
