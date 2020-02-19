@@ -35,7 +35,7 @@
 }
 
 .project-header {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .projects .project-1,
@@ -50,6 +50,7 @@
 
 .project-content {
     height: 35vh;
+    width: 100%;
 }
 
 .project-body,
