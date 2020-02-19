@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Muli', sans-serif;
-
+    margin: 0;
+    width: auto;
 }
 
 a {
@@ -154,7 +155,6 @@ p {
     height: 45vh;
     margin-top: 0;
     box-shadow: 5px 5px 30px #8c9299;
-    width: 100vw;
 
 }
 
@@ -242,35 +242,38 @@ p {
 
 }
 
-.list-group {
-    text-align: center;
-}
-
-.skills .row-1,
-.row-2,
-.row-3,
-.row-4 {
-    /* font-size: 2em; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 4em;
-    margin: 2em;
-}
-
-
-.skills .list-item-group {
-    display: flex;
-    flex-direction: column;
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
     justify-content: center;
-    text-align: center;
-    color: #fff;
-    margin: 2em;
+
 }
 
-.skills .list-item-group .fab,
-.list-item-group .fas {
-    font-size: 4em;
+.grid-gap {
+    grid-gap: 1.2em;
+}
+
+.grid-item {
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+
+.center {
+    justify-content: center;
+}
+
+.technology {
+    justify-content: center;
+}
+
+.fas,
+.fab {
+    font-size: 2em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Contact  */
@@ -340,13 +343,13 @@ p {
     .projects .project-3 #project-5 {
         background: url('../img/BTRE_showcase.png') no-repeat center center/cover;
         height: 50vh;
-        width: 100vw;
+
     }
 
     .projects .project-3 #project-3 {
         background: url('../img/ContactManager_showcase.png') no-repeat center top/cover;
         height: 50vh;
-        width: 100vw;
+
 
     }
 
@@ -358,7 +361,7 @@ p {
     }
 
     .project-body-small {
-        width: 100vw;
+
         padding: 0 20vw;
 
     }
