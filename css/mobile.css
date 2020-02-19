@@ -46,7 +46,10 @@
 
 .projects .project-3 #project-3 {
     background: url('../img/ContactManager_showcase.png') no-repeat center left/cover;
+}
 
+.project-content {
+    height: 35vh;
 }
 
 .project-body,

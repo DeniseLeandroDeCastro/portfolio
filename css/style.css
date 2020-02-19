@@ -338,41 +338,13 @@ p {
         display: block;
     }
 
-    .projects .project-2 #project-2 {
-        background: url('../img/Blog_showcase.png') no-repeat center top/cover;
-        height: 45vh;
-    }
-
-    .projects .project-3 #project-5 {
-        background: url('../img/BTRE_showcase.png') no-repeat center top/cover;
-        height: 45vh;
-    }
-
-    .projects .project-3 #project-3 {
-        background: url('../img/ContactManager_showcase.png') no-repeat center top/cover;
-        height: 45vh;
-
-    }
-
-    .projects .project-2 #project-4 {
-        background: url('../img/OfficeManager_showcase.png') no-repeat center top/cover;
-        height: 45vh;
-    }
-
-    .projects .project-1 .project-content {
-        background: url('../img/memenet_showcase.png') no-repeat center top/cover;
-        height: 45vh;
-    }
-
-    .projects .project-6 .project-content {
-        background: url('../img/movie_showcase.png') no-repeat center top/cover;
-        height: 45vh;
-    }
-
     .project-content {
         display: block;
         text-align: center;
         margin: 0px;
+        height: 45vh;
+        background: top/cover;
+        width: 100%;
     }
 
     .project-body-small {
@@ -385,6 +357,6 @@ p {
     }
 
     .contact {
-        height: 92vh;
+        height: 92gvh;
     }
 }
