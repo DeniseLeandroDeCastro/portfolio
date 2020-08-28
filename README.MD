@@ -10,14 +10,11 @@
 
 </p>
 
-___
+---
+
 <br>
 
 <img width="1277" alt="Screen Shot 2020-08-10 at 12 42 48" src="https://user-images.githubusercontent.com/9547354/91562985-7f257380-e914-11ea-8973-5df163edd942.png">
-
-## :japanese_ogre: Demo Web
-
-[Visit demo website](https://elated-keller-388a3f.netlify.app/)
 
 ## :computer: Description
 
